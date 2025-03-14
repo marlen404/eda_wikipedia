@@ -1,21 +1,22 @@
 # Simple Wikipedia EDA
+
 A simple Explodatory Data Analysis project using data from Wikipedia.
-I'm analyzing the page about the biggest Companies of the World.
+I'm analyzing the page about the biggest Companies of the world.
 
 ## Setup
-Virtual Environment:
-python3 -m venv venv      # Windows eher python
-source venv/bin/activate  # macOS/Linux
+### Virtual Environment
+```bash
+python -m venv venv       # Windows
 venv\Scripts\activate     # Windows
 
-Install Dependencies:
-pip install -r requirements.txt 
+source venv/bin/activate  # macOS/Linux
+```
 
-Libraries:
-requests (zum Abrufen der Wikipedia-Seite)
-beautifulsoup4 (zum Extrahieren der Daten)
-pandas (zur Datenverarbeitung)
-matplotlib & seaborn (für die Visualisierung)
-
-Start project:
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+## Start project
+```bash
 python eda_wikipedia.py
+```
